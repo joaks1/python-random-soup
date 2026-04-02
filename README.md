@@ -9,10 +9,10 @@ The script `hungry.py` demonstrates how to
 
 -   [Getting set up](#getting-set-up)
 -   [Creating-the-conda-environment](#creating-the-conda-environment)
--   [Touring the `hungry.py` script](#touring-the-hungry.py-script)
+-   [Touring the `hungry.py` script](#touring-the-hungrypy-script)
     -   [Web scraping](#web-scraping)
-    -   [Pseudo-random number generators](#peudo-random-number-generators)
--   [Try out the script!](try-out-the-script)
+    -   [Pseudo-random number generators](#pseudo-random-number-generators)
+-   [Try out the script!](#try-out-the-script)
 -   [License](#license)
 
 # Getting set up
