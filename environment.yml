@@ -1,0 +1,8 @@
+name: soup
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.8
+  - beautifulsoup4
+  - requests
