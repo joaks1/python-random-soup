@@ -107,9 +107,9 @@ From that, we use the `find_all` method to find the title element of all the
 ## Pseudo-random number generators
 
 Nothing is truly random with computers; it's all 0s and 1s!
-Pseudorandom number generators (PRNG) are algorithms that provide sequences of numbers
-that appear random, but are in fact 100% deterministic.
-These algorithms allow us to do random-like things that are 100% repeatable if
+Pseudorandom number generators (PRNG) are algorithms that provide sequences of
+numbers that appear random, but are, in fact, 100% deterministic.
+These algorithms allow us to do random-like things that are 100% repeatable, if
 we know the starting state ("seed") of the PRNG algorithm.
 
 In the `main_cli` function, we create an instance of a random number generator
@@ -121,7 +121,7 @@ random_num_generator = random.Random()
 
 If a seed was provided on the command line, we use it to set the starting seed
 of the `random_num_generator` object.
-Otherwise, we just use Pythons global PRNG to pseudo-randomly pick an integer
+Otherwise, we use Python's global PRNG to pseudo-randomly pick an integer
 between 1 and 999999999 as the seed for our `random_num_generator` object:
 
 ```python
@@ -131,6 +131,7 @@ between 1 and 999999999 as the seed for our `random_num_generator` object:
 We then pass our `random_num_generator` to the `pick_random_element` function.
 This function uses the `choice` method fo the `random_num_generator` to
 randomly choose one of the restaurants.
+
 
 # Try out the script!
 
