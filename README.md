@@ -8,9 +8,11 @@ The script `hungry.py` demonstrates how to
 # Contents
 
 -   [Getting set up](#getting-set-up)
--   [Installing Python packages](#installing-python-packages)
--   [Learning how to use the packages](#learning-how-to-use-the-packages)
--   [The exercise](#the-exercise)
+-   [Creating-the-conda-environment](#creating-the-conda-environment)
+-   [Touring the `hungry.py` script](#touring-the-hungry.py-script)
+    -   [Web scraping](#web-scraping)
+    -   [Pseudo-random number generators](#peudo-random-number-generators)
+-   [Try out the script!](try-out-the-script)
 -   [License](#license)
 
 # Getting set up
