@@ -112,7 +112,7 @@ def main_cli():
     if not seed:
         seed = random.randint(1, 999999999)
     print("Seeding the random number generator with", seed)
-    random_num_generator.seed(args.seed)
+    random_num_generator.seed(seed)
 
     restaurants = get_best_bites()
     chosen_restaurant = pick_random_element(restaurants, random_num_generator)
