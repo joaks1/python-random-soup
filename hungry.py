@@ -96,11 +96,13 @@ def main_cli():
     parser = argparse.ArgumentParser()
 
     # Add seed argument to our parser
-    parser.add_argument('-s', '--seed',
-            action = 'store',
-            # Using a function for the argument type
-            type = arg_is_positive_int,
-            help = ('Seed for random number generator.'))
+    parser.add_argument(
+        '-s', '--seed',
+        action = 'store',
+        # Using a function for the argument type
+        type = arg_is_positive_int,
+        help = ('Seed for random number generator.'),
+    )
 
     # Use our arg parser to parse the command-line args
     args = parser.parse_args()
